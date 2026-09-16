@@ -4,9 +4,9 @@
 
 ## 下载 Mac 测试版
 
-**[前往下载页面](https://github.com/bezhumingqian-bit/margin-releases/releases/tag/v0.1.0-mac-preview)**
+**[前往下载页面](https://github.com/bezhumingqian-bit/margin-releases/releases/tag/v0.1.1-mac-preview)**
 
-选择 `Margin-0.1.0-macOS-arm64.dmg`。当前支持 **Apple Silicon（M 系列芯片）Mac、macOS 13 或更新版本**；尚无 Intel Mac / Windows 包。
+选择 `Margin-0.1.1-macOS-arm64.dmg`。当前支持 **Apple Silicon（M 系列芯片）Mac、macOS 13 或更新版本**；尚无 Intel Mac / Windows 包。
 
 打开 DMG，将 **Margin.app** 拖到 **Applications（应用程序）**，然后从“应用程序”启动。
 
@@ -19,6 +19,8 @@
 更详细的步骤见安装包内的安装说明及 Release 附件 `INSTALL-MAC.md`。`SHA256SUMS.txt` 可用于校验下载文件是否一致，不等同于 Apple 开发者身份认证。
 
 ## 能做什么
+
+0.1.1 新增 OpenAI 模型下拉选择与简称提醒；模型选项不是账号权限列表。密钥、权限、模型 ID 和网络错误的提示更具体，不会自动改写旧模型设置。
 
 - 本机创建作品、编辑章节、维护 Bible、大纲、人物和故事资料。
 - 独立运行，手动写作不依赖网页服务器或联网。
@@ -35,5 +37,7 @@ API Key 独立加密保存；作品文件本身未加密。应用内恢复点和
 没有云同步、自动更新、离线模型或后台批量生成队列。应用升级可能重新请求钥匙串权限。请先用测试作品体验，勿将预览版作为重要稿件的唯一存储。
 
 ## 反馈
+
+升级：先导出作品备份并退出应用，再下载新版 DMG、替换“应用程序”中的 Margin。数据目录保持不变；不要删除 `Application Support/Margin`。当前无自动更新，旧版本继续在 Releases 中保留。
 
 欢迎通过本仓库 Issues 反馈。请提供系统版本、芯片型号、复现步骤和报错截图；不要发布 API Key、密码、私人正文或包含这些内容的完整日志。
