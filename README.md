@@ -4,9 +4,9 @@
 
 ## 下载 Mac 测试版
 
-**[前往下载页面](https://github.com/bezhumingqian-bit/margin-releases/releases/tag/v0.1.1-mac-preview)**
+**[前往下载页面](https://github.com/bezhumingqian-bit/margin-releases/releases/tag/v0.1.3-mac-preview)**
 
-选择 `Margin-0.1.1-macOS-arm64.dmg`。当前支持 **Apple Silicon（M 系列芯片）Mac、macOS 13 或更新版本**；尚无 Intel Mac / Windows 包。
+选择 `Margin-0.1.3-macOS-arm64.dmg`，不要下载 `Source code`。当前支持 **Apple Silicon（M 系列芯片）Mac、macOS 13 或更新版本**；尚无 Intel Mac / Windows 包。
 
 打开 DMG，将 **Margin.app** 拖到 **Applications（应用程序）**，然后从“应用程序”启动。
 
@@ -20,7 +20,7 @@
 
 ## 能做什么
 
-0.1.1 新增 OpenAI 模型下拉选择与简称提醒；模型选项不是账号权限列表。密钥、权限、模型 ID 和网络错误的提示更具体，不会自动改写旧模型设置。
+0.1.3 修复 12 章细纲输出预算与 DeepSeek 模式适配，新增 DeepSeek / 通义千问模型选择，并包含连接测试反馈的修复。模型选项不是账号权限列表，不会自动改写旧模型设置；生成失败保留原稿和旧候选，不自动重试扣费。此版本通过离线和模拟界面回归，尚未以真实付费模型验收。
 
 - 本机创建作品、编辑章节、维护 Bible、大纲、人物和故事资料。
 - 独立运行，手动写作不依赖网页服务器或联网。
