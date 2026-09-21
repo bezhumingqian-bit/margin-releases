@@ -4,9 +4,9 @@
 
 ## 下载 Mac 测试版
 
-**[前往下载页面](https://github.com/bezhumingqian-bit/margin-releases/releases/tag/v0.1.15-mac-preview)**
+**[前往下载页面](https://github.com/bezhumingqian-bit/margin-releases/releases/tag/v0.1.16-mac-preview)**
 
-选择 `Margin-0.1.15-macOS-arm64.dmg`，不要下载 `Source code`。当前支持 **Apple Silicon（M 系列芯片）Mac、macOS 13 或更新版本**；尚无 Intel Mac / Windows 包。
+选择 `Margin-0.1.16-macOS-arm64.dmg`，不要下载 `Source code`。当前支持 **Apple Silicon（M 系列芯片）Mac、macOS 13 或更新版本**；尚无 Intel Mac / Windows 包。
 
 打开 DMG，将 **Margin.app** 拖到 **Applications（应用程序）**，然后从“应用程序”启动。
 
@@ -19,6 +19,8 @@
 更详细的步骤见安装包内的安装说明及 Release 附件 `INSTALL-MAC.md`。`SHA256SUMS.txt` 可用于校验下载文件是否一致，不等同于 Apple 开发者身份认证。
 
 ## 能做什么
+
+0.1.16 修复批量起草暂停后没有恢复入口的问题：可以仅重试检查（不重写正文）、编辑候选，或人工核对后继续；已生成候选保留，重启后可继续未完成章节。修改前面候选会使后续旧检查失效，但不会删除后续稿子。人工放行不代表模型检查通过、不自动确认长期事实。来源未变化的 0.1.15 批次可恢复。
 
 0.1.15 更新界面、字体偏好与轻量动效，补充 6 种选段改写模板和文字差异展示，改进人物状态及拆书方法衔接，并修复确认联动修改后下一章无法读取最新正文的问题。右键章节可删除、批量删除或恢复；选中文字自动展开右侧修改区。
 
